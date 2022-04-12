@@ -15,7 +15,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'capybara', '< 2'
+  gem 'capybara', '>= 1.1.4', '< 2'
   gem 'test-unit'
   gem 'test-unit-rr'
   gem 'test-unit-notify'
