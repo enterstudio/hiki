@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'rack'
+gem 'rack', '>= 3.0.0'
 gem 'docdiff'
 gem 'hikidoc'
 
@@ -15,7 +15,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'capybara', '< 2'
+  gem 'capybara', '>= 1.1.4', '< 2'
   gem 'test-unit'
   gem 'test-unit-rr'
   gem 'test-unit-notify'
