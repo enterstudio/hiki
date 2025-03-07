@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'rack'
+gem 'rack', '>= 2.2.12'
 gem 'docdiff'
 gem 'hikidoc'
 
